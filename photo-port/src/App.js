@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import Nav from './components/Nav'
 import About from './components/About'
+import Portfolio from './components/Portfolio'
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
   <Nav></Nav>
   <main>
     <About></About>
+    <Portfolio></Portfolio>
+    <Contact></Contact>
   </main>
 </div>
   );
