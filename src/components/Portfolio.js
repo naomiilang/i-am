@@ -3,7 +3,7 @@ import React from 'react';
 function Portfolio () {
     return (
         <section class = "center">
-            <h1 class = "title">My Work</h1>
+            <h1 style= {{textDecoration:"underline"}}><a href="https://github.com/naomiilang">My Work</a></h1>
             <br/>
 
             <img src="./assets/mycipe.png" style = {{width:800}} alt="screenshot of the mycipe landing page"/>

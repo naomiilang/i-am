@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 function Nav() {
     return (
         <header>
-            <h2>
+            <h2 class="header">
                 <Link to="/">Naomi Lang</Link>
             </h2>
-            <nav>
+            <nav class="nav">
                 <ul className="flex-row">
                     <li className = "mx-2">
                     <Link to="/about">About</Link>

@@ -111,9 +111,6 @@ li {
   list-style: none;
 }
 
-nav a:hover {
-  text-decoration: underline;
-}
 
 nav li {
   cursor: pointer;
@@ -191,17 +188,6 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
-.card {
-  width: 25%;
-  text-align: center;
-}
-
-.img-thumbnail {
-  width: auto;
-  height: 300px;
-  margin-bottom: 50px;
-  cursor: pointer;
-}
 
 a {
   border-radius: 5px;
@@ -228,4 +214,16 @@ a {
 .description {
   font-weight: lighter;
   font-size: smaller;
+}
+
+.nav {
+  padding: 20px;
+  background-color: #cce3de;
+  list-style-type: none;
+  margin-left: 45px;
+  margin-right:45px;
+}
+
+.header {
+  padding: 30px;
 }
