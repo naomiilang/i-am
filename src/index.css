@@ -227,3 +227,10 @@ a {
 .header {
   padding: 30px;
 }
+
+.footer {
+  margin-top: 25px;
+  padding: 50px;
+  font-weight: lighter;
+  font-size: x-small;
+}
