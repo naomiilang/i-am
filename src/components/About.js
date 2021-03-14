@@ -4,11 +4,17 @@ function About() {
     return (
         <section>
             <h1 class= "about" style={{textAlign: "center"}}> About Me </h1>
-            <br></br>
-            <p>
+            <br/>
+            <p class="center">
                 My name is Naomi and I am a recent graduate of the UCLA fullstack development bootcamp! 
             </p>
-            <img src= './assets/pfp.JPG' alt = "profile of naomi"></img>
+            <br/>
+            <img class = "center"
+            style = {{ 
+                height: 500
+            }}
+            src= './assets/pfp.JPG' alt = "profile of naomi"
+            />
         </section>
     );
 }
