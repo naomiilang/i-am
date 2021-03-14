@@ -3,10 +3,10 @@ import React from 'react';
 function About() {
     return (
         <section>
-            <h1 class= "about" style={{textAlign: "center"}}> About Me </h1>
+            <h1 class= "about" style={{textAlign: "center"}}> Hi, I'm Naomi</h1>
             <br/>
             <p class="center">
-                My name is Naomi and I am a recent graduate of the UCLA fullstack development bootcamp! 
+                I'm a junior fullstack javascript developer.
             </p>
             <br/>
             <img class = "center"

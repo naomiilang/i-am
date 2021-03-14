@@ -3,11 +3,9 @@ main {
   max-width: 90%;
   padding: 50px 30px;
 }
+
 :root {
-  --primary: #8c54ff;
-  --secondary: #f3a847;
-  --tertiary: #b12704;
-  --light: #77bfa3;
+  --light: #6b9080;
   --dark: #white;
   --darker: #dde7c7;
   --error: rgb(228, 46, 1);
@@ -32,7 +30,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--dark);
+  background:#f6fff8;
   color: var(--light);
   font-family: 'Roboto', sans-serif;
 }
@@ -96,26 +94,6 @@ header a {
   color: var(--light);
 }
 
-button {
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: 0.5rem;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--secondary);
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-button[disabled] {
-  cursor: default;
-  opacity: 0.8;
-}
 
 img {
   max-width: 100%;
@@ -129,26 +107,12 @@ form {
   width: 40%;
 }
 
-input {
-  font-size: 1rem;
-  padding: 0.25rem;
-  border: 1px solid var(--dark);
-  outline: none;
-  border-radius: 3px;
-  transition: box-shadow 0.2s;
-}
-
-input:focus {
-  border: 1px solid var(--secondary);
-  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
-}
-
 li {
   list-style: none;
 }
 
 nav a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 nav li {
@@ -239,44 +203,6 @@ textarea {
   cursor: pointer;
 }
 
-.modalBackdrop {
-  background: rgba(0, 0, 0, 0.65);
-  bottom: 0;
-  left: 0;
-  overflow: auto;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 1;
-}
-
-.modalContainer {
-  background: var(--darker);
-  border-radius: 5px;
-  max-width: 100%;
-  margin: 50px auto;
-  padding: 15px;
-  width: 960px;
-}
-
-.modalTitle {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 25px;
-}
-
-button {
-  background: var(--primary);
-  border: 0;
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 30px;
-  padding: 10px 15px;
-}
-
 a {
   border-radius: 5px;
   color: var(--primary);
@@ -286,9 +212,6 @@ a {
   margin-right: -2px;
 }
 
-.navActive {
-  color: var(--secondary);
-}
 
 .center{
   text-align: center;
@@ -296,4 +219,13 @@ a {
   justify-content: center;
   align-items: center;
   margin: auto;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.description {
+  font-weight: lighter;
+  font-size: smaller;
 }
