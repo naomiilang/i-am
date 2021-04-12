@@ -13,6 +13,15 @@ function Portfolio () {
 
             <br/>
 
+            <br/>
+
+            <img src="./assets/mylitics.png" style = {{width:800}} alt="screenshot of the mylitics court page"/>
+            <br/>
+            <h5><a href="https://mycipeteam.herokuapp.com/" class="underline">MYLITICS</a></h5>
+            <p class="description">MYLITICS: A baskeball analytics app with responsive mobile first design</p>
+
+            <br/>
+
             <img 
             style= {{width: 800}} src="./assets/horiseon.png" alt = "screenshot of deployed horiseon application"/>
             <br/>
